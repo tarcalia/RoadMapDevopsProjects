@@ -1,4 +1,6 @@
 #!/bin/bash
+# Optional to run commands on server instead of local machine 
+#ssh -i /path/to/private_key username@remote_host
 
 total_cpu=$(mpstat)
 memory_usage=$(free -m)
